@@ -18,7 +18,7 @@ namespace _8hau_nienluan
             }
             sttBanCo++;
         }
-        static bool kiemtracot(int[,] banco, int h, int c)
+        static bool KiemTraCot(int[,] banco, int h, int c)
         {
             for (int i = h - 1; i >= 0; i--)
             {
@@ -55,7 +55,7 @@ namespace _8hau_nienluan
         }
         static bool hople(int[,] banco, int h, int c)
         {
-            if (!kiemtracot(banco, h, c))
+            if (!KiemTraCot(banco, h, c))
                 return false;
             if (!KiemTraCheoTrai(banco, h, c))
                 return false;
