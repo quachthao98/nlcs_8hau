@@ -29,7 +29,7 @@ namespace _8hau_nienluan
             }
             return true;
         }
-        static bool kiemtracheotrai(int[,] banco, int h, int c)
+        static bool KiemTraCheoTrai(int[,] banco, int h, int c)
         {
             for (int i = h - 1, j = c - 1; i >= 0 && j >= 0; i--, j--)
             {
@@ -57,7 +57,7 @@ namespace _8hau_nienluan
         {
             if (!kiemtracot(banco, h, c))
                 return false;
-            if (!kiemtracheotrai(banco, h, c))
+            if (!KiemTraCheoTrai(banco, h, c))
                 return false;
             if (!kiemtracheophai(banco, h, c))
                 return false;
