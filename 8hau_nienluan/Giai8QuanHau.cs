@@ -13,14 +13,10 @@ namespace _8hau_nienluan
             {
                 for (int j = 0; j < 8; j++)
                 {
-                    // Console.Write("{0} ", banco[i, j]);// draw (image)
                     ketqua[sttBanCo, i, j] = banco[i, j];
                 }
-                // Console.WriteLine();//xóa
             }
             sttBanCo++;
-            // Console.WriteLine();
-            // Console.ReadLine();// bỏ luôn
         }
         static bool kiemtracot(int[,] banco, int h, int c)
         {
